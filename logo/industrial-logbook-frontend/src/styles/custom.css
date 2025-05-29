@@ -1,0 +1,49 @@
+
+:root {
+  --primary-maroon: #800000;
+  --secondary-dark: #2E2E2E;
+  --accent-white: #fff;
+  --accent-light: #F5F5F5;
+  --border-radius: 8px;
+}
+
+body {
+  background: var(--accent-light);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: var(--secondary-dark);
+}
+
+a {
+  color: var(--primary-maroon);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card, .rounded {
+  border-radius: var(--border-radius) !important;
+}
+
+.bg-maroon {
+  background-color: var(--primary-maroon) !important;
+  color: var(--accent-white) !important;
+}
+
+.bg-dark-grey {
+  background-color: var(--secondary-dark) !important;
+  color: var(--accent-white) !important;
+}
+
+.text-maroon {
+  color: var(--primary-maroon) !important;
+}
+
+.text-dark-grey {
+  color: var(--secondary-dark) !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(44,44,44,0.06);
+}
